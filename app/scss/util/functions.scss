@@ -1,0 +1,16 @@
+// source : https://css-tricks.com/snippets/sass/px-to-em-functions/
+
+@function rem($pixel, $context: 16)
+{
+    @return ($pixel / $context) * 1rem;
+}
+
+/*
+Now h1{
+    font-size: rem(24);
+}
+will output
+h1 {
+    font-size: 1.5rem;
+}
+*/
