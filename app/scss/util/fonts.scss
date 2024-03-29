@@ -1,0 +1,10 @@
+// for weight 400 and 700 from index.html
+:root {
+   --font-inter: "Inter", sans-serif;
+  }
+
+  /* now to use it as css variable::
+  body {
+    font-family: var(--font-inter);
+  }
+  */
